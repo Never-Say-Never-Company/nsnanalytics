@@ -22,7 +22,6 @@ Um projeto que analisa métricas de um time de desenvolvimento coleta dados sobr
 
 | **Nome**            | **Função**        | **LinkedIn**                                                                                                                                           |
 |:-------------------:|:-----------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| Cristiane Alvares   | Desenvolvedor     | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/cristiane-alvares/) |
 | Isaque de Souza     | Scrum Master      | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/isaque-souza-6760b8270/) |
 | Paloma Soares       | Desenvolvedor     | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/paloma-soares-rocha/) |
 | Ricardo Campos      | Product Owner     | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/ricardo-campos-ba56091b5/) |
@@ -70,22 +69,6 @@ O objetivo deste produto é fornecer uma plataforma de gestão e análise de des
 
 <br>
 
-## <a id="product-backlog"> Product BackLog</a>
-| ID  | Como         | Desejo                                                                                   | Sprint | Prioridade | Dependência | Requisito |
-|-----|-------------|------------------------------------------------------------------------------------------|--------|------------|------------|-----------|
-| A   | Gestor       | Ver o desempenho individual de cada membro do time                                       | 1      | Alta       | II, III    | III       |
-| B   | Gestor       | Visualizar o desempenho consolidado do time em projetos                                  | 1      | Alta       | II, III    | III       |
-| C   | Gestor       | Gerar boards com atividades consolidadas do time                                         | 1      | Média      | I, II      | V         |
-| D   | Gestor       | Definir níveis de permissão e acesso aos dashboards                                      | 1      | Alta       | VI         | VI        |
-| E   | Desenvolvedor | Ter acesso restrito de acordo com meu perfil                                             | 2      | Alta       | VI         | VI        |
-| F   | Desenvolvedor | Ver meu desempenho individual em cada projeto                                           | 2      | Alta       | I, II      | III       |
-| G   | Desenvolvedor | Visualizar minhas atividades concluídas e pendentes                                      | 2      | Média      | I, II      | V         |
-| H   | Desenvolvedor | Acessar dashboards com métricas do meu trabalho                                          | 3      | Alta       | II, III    | IV        |
-| I   | Desenvolvedor | Comparar meu desempenho ao longo do tempo                                               | 3      | Média      | II, III    | III       |
-| J   | Gestor       | Filtrar dashboards por projeto, membro ou período                                        | 3      | Média      | IV         | IV        |
-| K   | Gestor       | Receber alertas ou notificações sobre atrasos ou bloqueios do time                       | 3      | Média      | III, IV    | III       |
-
-<br>
 
 ## <a id="tecnologias-utilizadas"> Tecnologias Utilizadas</a>
 

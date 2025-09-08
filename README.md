@@ -18,7 +18,7 @@ Um projeto que analisa métricas de um time de desenvolvimento coleta dados sobr
 
 <br>
 
-## :mortar_board: <a id="integrantes-da-equipe"> Integrantes do TIme: </a>
+## <a id="integrantes-da-equipe"> Integrantes do Time: </a>
 
 | **Nome**            | **Função**        | **LinkedIn**                                                                                                                                           |
 |:-------------------:|:-----------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -30,19 +30,19 @@ Um projeto que analisa métricas de um time de desenvolvimento coleta dados sobr
 
 <br>
 
-## :anger: <a id=descrição-do-desafio> Descrição do Desafio </a>
+## <a id=descrição-do-desafio> Descrição do Desafio </a>
 
 Um projeto que analisa métricas de um time de desenvolvimento coleta dados sobre produtividade, qualidade e eficiência do processo. Essas informações são organizadas e processadas para gerar insights claros sobre desempenho e evolução da equipe. Por fim, os resultados são apresentados em um dashboard interativo que apoia a tomada de decisão e a melhoria contínua.
 
 <br>
 
-## :dart: <a id="objetivo"> Objetivo do Projeto
+## <a id="objetivo"> Objetivo do Projeto
 
 O objetivo deste produto é fornecer uma plataforma de gestão e análise de desempenho de projetos que atenda tanto gestores quanto desenvolvedores. Para os gestores, o sistema oferece visão detalhada do desempenho individual e coletivo do time, permitindo gerar dashboards interativos, boards consolidados e acompanhar indicadores-chave de progresso. Para os desenvolvedores, a plataforma possibilita monitorar seu próprio desempenho, atividades concluídas e métricas pessoais, promovendo maior autoconhecimento e engajamento. O sistema garante ainda controle de acesso por perfis, assegurando que cada usuário visualize informações adequadas ao seu nível de permissão.
 
 <br>
 
-## :page_facing_up: <a id="requisitos"> Requisitos Funcionais </a>
+## <a id="requisitos"> Requisitos Funcionais </a>
 
 | Identificador | Requisito Funcional |
 |---------------|-------------------|
@@ -55,7 +55,7 @@ O objetivo deste produto é fornecer uma plataforma de gestão e análise de des
 
 <br>
 
-## :calendar: <a id="cronograma"> Cronograma</a>
+## <a id="cronograma"> Cronograma</a>
 
 | Sprint | Nome                        | Data Início | Data Fim | Status |
 |--------|-----------------------------|------------|----------|--------|
@@ -70,7 +70,7 @@ O objetivo deste produto é fornecer uma plataforma de gestão e análise de des
 
 <br>
 
-## :date: <a id="product-backlog"> Product BackLog</a>
+## <a id="product-backlog"> Product BackLog</a>
 | ID  | Como         | Desejo                                                                                   | Sprint | Prioridade | Dependência | Requisito |
 |-----|-------------|------------------------------------------------------------------------------------------|--------|------------|------------|-----------|
 | A   | Gestor       | Ver o desempenho individual de cada membro do time                                       | 1      | Alta       | II, III    | III       |
@@ -87,7 +87,7 @@ O objetivo deste produto é fornecer uma plataforma de gestão e análise de des
 
 <br>
 
-## :bookmark: <a id="tecnologias-utilizadas"> Tecnologias Utilizadas 🛠️</a>
+## <a id="tecnologias-utilizadas"> Tecnologias Utilizadas 🛠️</a>
 
 ### **Back-end**
 - **[Python:](https://www.python.org/)** Versão 3.13.7

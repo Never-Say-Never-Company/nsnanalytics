@@ -87,7 +87,7 @@ O objetivo deste produto é fornecer uma plataforma de gestão e análise de des
 
 <br>
 
-## <a id="tecnologias-utilizadas"> Tecnologias Utilizadas 🛠️</a>
+## <a id="tecnologias-utilizadas"> Tecnologias Utilizadas</a>
 
 ### **Back-end**
 - **[Python:](https://www.python.org/)** Versão 3.13.7

@@ -1,4 +1,4 @@
-# <p align = "center"> NSN Analytics - API 5º Semestre - BD 2025
+# <p align = "center"> SWAG - API 5º Semestre - BD 2025
 
 Um projeto que analisa métricas de um time de desenvolvimento coleta dados sobre produtividade, qualidade e eficiência do processo. Essas informações são organizadas e processadas para gerar insights claros sobre desempenho e evolução da equipe. Por fim, os resultados são apresentados em um dashboard interativo que apoia a tomada de decisão e a melhoria contínua.
 

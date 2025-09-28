@@ -3,14 +3,11 @@
 Um projeto que analisa métricas de um time de desenvolvimento coleta dados sobre produtividade, qualidade e eficiência do processo. Essas informações são organizadas e processadas para gerar insights claros sobre desempenho e evolução da equipe. Por fim, os resultados são apresentados em um dashboard interativo que apoia a tomada de decisão e a melhoria contínua.
 
 <br>
-
-
-<br>
 <p align="center">
   <a href="#integrantes-da-equipe">Integrantes do Time</a> |
   <a href="#descrição-do-desafio">Descrição do Desafio</a> |
   <a href="#objetivo">Objetivo do Projeto</a> |
-  <a href="#requisitos">Requisitos Funcionais</a> |
+  <a href="#requisitos">Detalhamento de Requisitos</a> |
   <a href="#cronograma">Cronograma</a> |
   <a href="#product-backlog">Product Backlog</a> |
   <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
@@ -30,22 +27,47 @@ Um projeto que analisa métricas de um time de desenvolvimento coleta dados sobr
 
 <br>
 
-## <a id="objetivo"> Objetivo do Projeto
+## <a id="objetivo"> Objetivo do Projeto </a>
 
 O objetivo deste produto é fornecer uma plataforma de gestão e análise de desempenho de projetos que atenda tanto gestores quanto desenvolvedores. Para os gestores, o sistema oferece visão detalhada do desempenho individual e coletivo do time, permitindo gerar dashboards interativos, boards consolidados e acompanhar indicadores-chave de progresso. Para os desenvolvedores, a plataforma possibilita monitorar seu próprio desempenho, atividades concluídas e métricas pessoais, promovendo maior autoconhecimento e engajamento. O sistema garante ainda controle de acesso por perfis, assegurando que cada usuário visualize informações adequadas ao seu nível de permissão.
 
 <br>
 
-## <a id="requisitos"> Requisitos Funcionais </a>
+---
+## <a id="requisitos"> Detalhamento de Requisitos </a>
 
-| Identificador | Requisito Funcional |
-|---------------|-------------------|
-| I             | O sistema deve consumir dados diretamente via API do sistema de gestão de projetos. |
-| II            | O sistema deve consolidar os dados em um Data Warehouse para análise. |
-| III           | O sistema deve permitir a geração de indicadores de andamento dos projetos. |
-| IV            | O sistema deve disponibilizar dashboards interativos para visualização de métricas. |
-| V             | O sistema deve gerar boards com informações consolidadas sobre as atividades. |
-| VI            | O sistema deve possibilitar o acesso com diferentes perfis de usuários, cada um com níveis de permissão distintos. |
+### Requisitos Funcionais (RF)
+
+| ID do Requisito | Descrição | Origem (Pessoa/Documento) |
+| :---: | :--- | :--- |
+| **RF1** | O sistema deve **consumir dados da API do Jira** (Host: `https://necto.atlassian.net/`, Username: `api5bdfatec@gmail.com`). | Requisitos de Cliente [p. 1] |
+| **RF2** | O sistema deve **consolidar os dados em um Data Warehouse** (DW). | Requisitos de Cliente [p. 1] |
+| **RF3** | O sistema deve gerar **indicadores, dashboards e boards** sobre o andamento dos projetos. | Requisitos de Cliente [p. 1] |
+| **RF4** | O sistema deve permitir a **criação de visualizações (desenhos de tela)** utilizando **Figma ou Miro** (sugerido pela Vanessa). | Vanessa Matsumura [16:47] |
+| **RF5** | O sistema deve permitir o uso de **fluxos em BPMN** para validar fluxos de trabalho. | Vanessa Matsumura [16:46] |
+| **RF6** | O sistema deve **restringir a visualização de informações de custo** apenas ao **Gerente de Projetos**. | Vanessa Matsumura [16:46, 19:02] |
+| **RF7** | O sistema deve exibir a **Quantidade de Horas Utilizadas** por: cada atividade, módulo (Epic/Produto/Entregável), e pelo desenvolvedor (por atividade/módulo/dia). | Vanessa Matsumura [15:41] |
+| **RF8** | O sistema deve exibir a **Quantidade de Bugs (Total)**. | Vanessa Matsumura [15:41] |
+| **RF9** | O sistema deve exibir a **Quantidade de Issues Abertas** por status: **aguardando, em andamento, em MR e concluídas**. | Vanessa Matsumura [15:41] |
+| **RF10**| O sistema deve **mensurar o tempo de trabalho** de cada desenvolvedor por **módulo/projeto**. | Vanessa Matsumura [7:22] |
+| **RF11**| O sistema deve **mensurar a quantidade de atividades finalizadas** de cada desenvolvedor dentro do período definido ou por projeto. | Vanessa Matsumura [7:22] |
+
+### Requisitos Não Funcionais (RNF)
+
+| ID do Requisito | Descrição | Origem (Pessoa/Documento) |
+| :---: | :--- | :--- |
+| **RNF1** | O modelo de dados dimensional (Star/Snowflake) deve ser **documentado e validado** antes da implementação de cada Sprint. A documentação deve incluir: conceitual, lógico, físico e dicionário de dados. | Requisitos de Cliente [p. 2], Ata da Reunião |
+| **RNF2** | Deve ser entregue um **Manual de Instalação** (obrigatório, no Git). | Requisitos de Cliente [p. 2] |
+| **RNF3** | Deve ser entregue um **Manual do Usuário** (obrigatório). | Requisitos de Cliente [p. 2] |
+| **RNF4** | O acesso deve contemplar **diferentes perfis de usuário**: Gerente de Projetos, Líder de Equipe e Membro da Equipe (Desenvolvedor). | Requisitos de Cliente [p. 1], Vanessa Matsumura [16:46] |
+| **RNF5** | O sistema deve garantir que o **nível de permissão seja distinto**. | Requisitos de Cliente [p. 1] |
+| **RNF7** | O sistema deve ser **escalável**, suportando de **10** (usuários atuais) a **1000** (estimativa futura) usuários. | Vanessa Matsumura [14:06] |
+| **RNF8** | **Sugestão de Linguagem/Framework**: Python e Django. | Requisitos de Cliente [p. 2] |
+| **RNF9** | **Sugestão de Ferramentas**: Docker e AWS. | Requisitos de Cliente [p. 2] |
+| **RNF10**| Devem ser aplicados **conceitos e ferramentas de DevOps** em todo o projeto, com justificativas técnicas. | Requisitos de Cliente [p. 1], Ata da Reunião |
+| **RNF11**| Requisitos de **Qualidade de Código**: Análise Estática de Código e Testes Automatizados (Unidade, Integração e Funcionais de Sistema API/UI). | Requisitos de Cliente [p. 2] |
+
+---
 
 <br>
 
@@ -64,13 +86,20 @@ O objetivo deste produto é fornecer uma plataforma de gestão e análise de des
 
 <br>
 
+## <a id="tecnologias-utilizadas"> Planejamento de Sprints</a>
+
+| Sprint | Meta da Sprint | Foco | User Stories e Requisitos Principais |
+| :---: | :--- | :--- | :--- |
+| **Sprint 1** | **Entendimento, Prova de Conceito (Mockados) e Modelagem de Dados Inicial** | Estudo da API, validação do DW (**Snowflake**), Prova de Conceito de gráficos com **dados mockados** e apresentação do fluxo futuro. | **Modelagem Conceitual/Lógica/Física do DW** (RNF1), **Conexão com a API e POC com Dados Mockados** (RF1), Definição e Justificativa de **DevOps** (RNF10), Criação de **Desenhos de Tela** (RF4). |
+| **Sprint 2** | **Construção do Data Warehouse e Dashboards Essenciais** | Implementação do ETL (extração e carga) e dos indicadores de maior prioridade. | **US001, US002, US003, US004, US005** (Indicadores de Alto Impacto). **Implementação do ETL** e do DW (RF2). **Controle de Acesso de Custo** (RF6). |
+| **Sprint 3** | **Refinamento, Métricas Individuais e Qualidade/Documentação** | Implementação das métricas mais detalhadas, escalabilidade (RNF7), testes e documentação final (RNF2, RNF3). | **US006, US007, US008, US009** (Métricas de Desempenho Individual e Funcionalidade de Perfis). **Testes e Qualidade** (RNF11), **Documentação Final** (RNF2, RNF3). |
 
 ## <a id="tecnologias-utilizadas"> Tecnologias Utilizadas</a>
 
 ### **Back-end**
 - **[Python:](https://www.python.org/)** Versão 3.13.7
 - **[DJango:](https://www.djangoproject.com/)** Versão 5.2.6
-- **[PostgreSQL:](https://www.postgresql.org/)** Versão 15.2
+- **[MongoDB:](https://www.mongodb.com/)** Versão 8.2
 
 ### **Front-end**
 - **[Vue.js:](https://vuejs.org/)** Versão 3.5.13

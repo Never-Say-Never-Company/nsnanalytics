@@ -4,25 +4,25 @@ Um projeto que analisa métricas de um time de desenvolvimento coleta dados sobr
 
 <br>
 <p align="center">
-  <a href="#integrantes-da-equipe">Integrantes do Time</a> |
-  <a href="#descrição-do-desafio">Descrição do Desafio</a> |
-  <a href="#objetivo">Objetivo do Projeto</a> |
-  <a href="#requisitos">Detalhamento de Requisitos</a> |
-  <a href="#cronograma">Cronograma</a> |
-  <a href="#product-backlog">Product Backlog</a> |
-  <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
+  <a href="#integrantes-da-equipe">Integrantes do Time</a> |
+  <a href="#descrição-do-desafio">Descrição do Desafio</a> |
+  <a href="#objetivo">Objetivo do Projeto</a> |
+  <a href="#requisitos">Detalhamento de Requisitos</a> |
+  <a href="#cronograma">Cronograma</a> |
+  <a href="#product-backlog">Product Backlog</a> |
+  <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
 </p>
 
 <br>
 
 ## <a id="integrantes-da-equipe"> Integrantes do Time: </a>
 
-| **Nome**            | **Função**        | **LinkedIn**                                                                                                                                           |
+| **Nome**            | **Função**        | **LinkedIn**                                                                                                                                           |
 |:-------------------:|:-----------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| Isaque de Souza     | Scrum Master      | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/isaque-souza-6760b8270/) |
-| Paloma Soares       | Desenvolvedor     | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/paloma-soares-rocha/) |
-| Ricardo Campos      | Product Owner     | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/ricardo-campos-ba56091b5/) |
-| Vinícius Monteiro   | Desenvolvedor     | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/viniciusvasm/) |
+| Isaque de Souza     | Scrum Master      | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/isaque-souza-6760b8270/) |
+| Paloma Soares       | Desenvolvedor     | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/paloma-soares-rocha/) |
+| Ricardo Campos      | Product Owner     | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/ricardo-campos-ba56091b5/) |
+| Vinícius Monteiro   | Desenvolvedor     | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/viniciusvasm/) |
 
 
 <br>
@@ -30,6 +30,15 @@ Um projeto que analisa métricas de um time de desenvolvimento coleta dados sobr
 ## <a id="objetivo"> Objetivo do Projeto </a>
 
 O objetivo deste produto é fornecer uma plataforma de gestão e análise de desempenho de projetos que atenda tanto gestores quanto desenvolvedores. Para os gestores, o sistema oferece visão detalhada do desempenho individual e coletivo do time, permitindo gerar dashboards interativos, boards consolidados e acompanhar indicadores-chave de progresso. Para os desenvolvedores, a plataforma possibilita monitorar seu próprio desempenho, atividades concluídas e métricas pessoais, promovendo maior autoconhecimento e engajamento. O sistema garante ainda controle de acesso por perfis, assegurando que cada usuário visualize informações adequadas ao seu nível de permissão.
+
+<p align="center">
+    <a href="documentacao/fluxodeatualizacao.svg">
+        <img src="https://img.shields.io/badge/Fluxo_de_Comunicação_do_Sistema-blue?style=for-the-badge&logo=Diagrams" alt="Fluxo de Comunicação do Sistema">
+    </a>
+    <a href="documentacao/funcionamentoatualizacao.svg">
+        <img src="https://img.shields.io/badge/Evolução_do_Fluxo_de_Atualização-green?style=for-the-badge&logo=Diagrams" alt="Evolução do Fluxo de atualização da base por sprint">
+    </a>
+</p>
 
 <br>
 
@@ -73,16 +82,16 @@ O objetivo deste produto é fornecer uma plataforma de gestão e análise de des
 
 ## <a id="cronograma"> Cronograma</a>
 
-| Sprint | Nome                        | Data Início | Data Fim | Status |
+| Sprint | Nome                        | Data Início | Data Fim | Status |
 |--------|-----------------------------|------------|----------|--------|
-| --     | Kick-off geral              | 25/08      | 29/08    | Ok     |
-| 1      | Sprint 1                   | 08/09      | 28/09    |        |
-| 2      | Sprint Review / Planning    | 29/09      | 03/10    |        |
-| 3      | Sprint 2                   | 06/10      | 26/10    |        |
-| 4      | Sprint Review / Planning    | 27/10      | 31/10    |        |
-| 5      | Sprint 3                   | 03/11      | 23/11    |        |
-| 6      | Sprint Review              | 24/11      | 28/11    |        |
-| 7      | Feira de Soluções           | 04/12      | 04/12    |        |
+| --     | Kick-off geral              | 25/08      | 29/08    | Ok     |
+| 1      | Sprint 1                   | 08/09      | 28/09    |        |
+| 2      | Sprint Review / Planning    | 29/09      | 03/10    |        |
+| 3      | Sprint 2                   | 06/10      | 26/10    |        |
+| 4      | Sprint Review / Planning    | 27/10      | 31/10    |        |
+| 5      | Sprint 3                   | 03/11      | 23/11    |        |
+| 6      | Sprint Review              | 24/11      | 28/11    |        |
+| 7      | Feira de Soluções           | 04/12      | 04/12    |        |
 
 <br>
 
@@ -111,7 +120,7 @@ O objetivo deste produto é fornecer uma plataforma de gestão e análise de des
 ### **Ambiente de Execução**
 - **[Node.js:](https://nodejs.org/pt)** Versão 22.14
 
-### **Ferramentas de Desenvolvimento** 
+### **Ferramentas de Desenvolvimento** 
 - **[Vite:](https://vitejs.dev/)** Versão 6.2.1
 - **[TypeScript:](https://www.typescriptlang.org/)** Versão 5.8.0
 - **[Git:](https://git-scm.com/)** Controle de versão

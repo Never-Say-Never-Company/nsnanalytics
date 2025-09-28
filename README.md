@@ -9,7 +9,6 @@ Um projeto que analisa métricas de um time de desenvolvimento coleta dados sobr
   <a href="#objetivo">Objetivo do Projeto</a> |
   <a href="#requisitos">Detalhamento de Requisitos</a> |
   <a href="#cronograma">Cronograma</a> |
-  <a href="#product-backlog">Product Backlog</a> |
   <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
 </p>
 
